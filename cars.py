@@ -17,5 +17,32 @@
 # cars.reverse()
 # print(cars)
 
-cars = ['vw','bentley','honda','alpha romeo']
-print(len(cars))
+# cars = ['vw','bentley','honda','alpha romeo']
+# print(len(cars))
+
+
+# cars = ['vw','bentley','honda','alpha romeo']
+
+# for car in cars:
+#     if car == 'vw':
+#         print(car.upper())
+#     else:
+#         print(car.title())
+
+
+# car = 'Renault'
+
+# if car.lower() == 'renault':
+#     print('True')
+# else:
+#     print('False')
+
+
+bpm = 155
+
+if bpm > 200:
+    print('Hold on dude thats too quick!')
+if bpm < 160:
+    print('Wooow, too slow maaan!')
+else: 
+    print('Nicely done!')
