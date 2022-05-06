@@ -39,17 +39,33 @@
 # for language in set(favourite_languages.values()):
 #     print(language.title())
 
+# favourite_languages = {
+#     'bob': 'c',
+#     'jenny': 'java',
+#     'brooke': 'sql',
+#     'philip': 'c'
+# }
+
+# people = ['brooke', 'matilda', 'ben', 'jenny']
+
+# for person in people:
+#     if person in favourite_languages:
+#         print("Thanks for taking the poll, " + person.title() + "!")
+#     else:
+#         print("Hey, " + person.title() + ". Please can you take the poll!")
+
 favourite_languages = {
-    'bob': 'c',
-    'jenny': 'java',
-    'brooke': 'sql',
-    'philip': 'c'
+    'john': ['python', 'go'],
+    'paula': ['c'],
+    'tommy': ['java', 'html']
 }
 
-people = ['brooke', 'matilda', 'ben', 'jenny']
-
-for person in people:
-    if person in favourite_languages:
-        print("Thanks for taking the poll, " + person.title() + "!")
+for name, languages in favourite_languages.items():
+    if len(languages) == 1:
+        print("\n" + name.title() + "'s favoruite language is:")
+        for language in languages:
+            print("\t" + language.title())
     else:
-        print("Hey, " + person.title() + ". Please can you take the poll!")
+        print("\n" + name.title() + "'s favoruite languages are:")
+        for language in languages:
+            print("\t" + language.title())

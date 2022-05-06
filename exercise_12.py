@@ -36,3 +36,4 @@ print("My glossary:")
 
 for key, value in glossary.items():
     print("The definition of " + key.title() + ' is "' + value + '".')
+
