@@ -1,8 +1,14 @@
-class Car(): 
-    """A simple attempt to represent a car."""
+"""A set of classes used to represent gas and electric cars."""
 
+
+# Define the class name
+class Car(): 
+    #Give the class a descriptions
+    """A simple attempt to represent a car."""
+    # Define the init method with the self variable and the attributes.
     def __init__(self, make, model, year):
         """Initialise attributes to describe a car."""
+        # Assign the attribute variables to 'self'
         self.make = make
         self.model = model
         self.year = year
@@ -31,9 +37,18 @@ class Car():
         """Add the given amount to the odometer reading."""
         self.odometer_reading += miles
 
+    def fill_gas_tank(self):
+        """Fills the gas tank"""
+        print("You filled your gas!")
+
 my_used_car = Car('subaru', 'outback', 2013)
-print(my_used_car.get_descriptive_name())
-my_used_car.update_odometer(23500)
-my_used_car.read_odometer()
-my_used_car.increment_odometer(100)
-my_used_car.read_odometer()
+# print(my_used_car.get_descriptive_name())
+# my_used_car.update_odometer(23500)
+# my_used_car.read_odometer()
+# my_used_car.increment_odometer(100)
+# my_used_car.read_odometer()
+
+
+# my_prius.battery.get_range()
+# my_prius.battery.upgrade_battery()
+# my_prius.battery.get_range()
