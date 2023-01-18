@@ -4,8 +4,9 @@
 # Descriptions:
 - 
 
-# Reviewing requirements
-- _e.g. exercise_uuid='1234-5678' for crisis sim after action_
+# Reviewing/testing requirements
+ 
+- _e.g. exercise_uuid for specific crisis sim after action report OR org_id for organisation that reported a bug the PR relates to_
 
 # Useful documentation
 
