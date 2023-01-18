@@ -1,5 +1,5 @@
 # Jira tickets:
-- [ticket ref](insert url here)
+- 
 
 # Descriptions:
 - 
